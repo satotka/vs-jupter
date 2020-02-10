@@ -1,6 +1,6 @@
 {
     // Python PATH
-    "python.pythonPath": "${workspaceFolder}/venv/bin/python",
+    "python.pythonPath": "venv/bin/python",
     // watch exclude
     "files.watcherExclude": {
         "**/venv**": true
