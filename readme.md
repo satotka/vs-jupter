@@ -21,15 +21,7 @@ pip install jupyter pandas lxml plotly-express
 
 4. settings for vs code
 
-.vscode/settings.json
+See: .vscode/settings.json
 
-```bash
-{
-    // Python PATH
-    "python.pythonPath": "${worksspaceFolder}/venv/bin/python",
-    // watch exclude
-    "files.wacherExclude": {
-        "**/venv**": true
-    },
-}
-```
+- Python PATH for venv
+- file watch exclude for venv
