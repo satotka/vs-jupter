@@ -52,4 +52,6 @@ venv\Scripts\activate.ps1
 pip install jupyter pandas lxml plotly-express
 ```
 
-※ Proxy有りの場合、pip失敗する。回避方法は調査中。
+- Proxy有りの場合、pip失敗する。回避方法は調査中。
+  - SSL: CERTIFICATE_VERIFY_FAILED : ProxyがSSL証明書を置き換えている？ Proxyサービスが提供しているCAを追加する必要あり。
+
