@@ -36,7 +36,13 @@ See: .vscode/settings.json
 1. Python venv
 
 ```powershell
-python3 -m venv venv
+python -m venv venv
+```
+
+or
+
+```powershell
+py -m venv venv
 ```
 
 2.  Activate venv
