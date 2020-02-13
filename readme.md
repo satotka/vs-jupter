@@ -13,7 +13,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-3. install jupyter  pandas
+3. install jupyter  pandas etc,
 
 ```bash
 pip install jupyter pandas lxml plotly-express
