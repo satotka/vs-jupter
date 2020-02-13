@@ -1,5 +1,10 @@
 # VS Code and Jupyter Python
 
+## require
+
+- python3
+
+## setup - linux
 
 1. Python venv
 
@@ -25,3 +30,26 @@ See: .vscode/settings.json
 
 - Python PATH for venv
 - file watch exclude for venv
+
+## setup - windows
+
+1. Python venv
+
+```powershell
+python3 -m venv venv
+```
+
+2.  Activate venv
+
+```powershell
+Set-ExecutionPolicy RemoteSigned
+venv\Scripts\activate.ps1
+```
+
+3. install jupyter  pandas etc,
+
+```powershell
+pip install jupyter pandas lxml plotly-express
+```
+
+※ Proxy有りの場合、pip失敗する。回避方法は調査中。
